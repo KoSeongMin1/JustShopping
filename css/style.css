@@ -1,0 +1,220 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    color: #222328;
+    font-family: "맑은 고딕";
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+body,html{
+    max-width: 100%;
+}
+.wrap{
+    width: 1200px;
+}
+#header{
+    height: 100px;
+}
+#logo{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+nav{
+    float: right;
+}
+.main{
+    margin-top: -40px;
+    margin-right: 60px;
+    width: 640px;
+}
+.main>li{
+    float: left;
+    text-align: center;
+    width: 160px;
+    padding: 10px 0px;
+    transition: all 0.4s;
+    position: relative;
+}
+.main>li:hover{
+    background-color: #ff3399;
+    color: #ffffff;
+}
+.submenu{
+    margin-top: 10px;
+    position: absolute;
+    background-color: rgba(255,255,255,0.8);
+    display: none;
+}
+.submenu>li{
+    width: 160px;
+    text-align: center;
+    padding: 10px 0px;
+    z-index: 1;
+    transition: all 0.4s;
+}
+.submenu>li:hover{
+    background-color: #ff99cc;
+    color: #ffffff;
+}
+
+
+
+#slide{
+    height: 300px;
+    overflow: hidden;
+}
+.slideimg{
+    height: 900px;
+    overflow: hidden;
+}
+.slideimg img{
+    border: 0;
+    display: block;
+}
+
+
+
+#contents{
+    height: 200px;
+}
+#NoticeNGallery{
+    width: 400px;
+    float: left;
+    position: relative;
+}
+#NoticeBTN{
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 18px;
+    color: #222328;
+    float: left;
+    position: relative;
+}
+#NoticeBTN:hover{
+    background-color: #ff99cc;
+    color: #222328 !important;
+}
+#Notice{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 15px;
+}
+#Notice tr{
+    text-align: center;
+}
+#Notice tr:nth-child(2n){
+    background-color: #ffc5e5;
+}
+#Notice tr td{
+    padding: 5px 0px;
+}
+.item{
+    float: left;
+    width: 80%;
+}
+.date{
+    float: right;
+    width: 20%;
+}
+#GalleryBTN{
+    width: 100px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    font-size: 18px;
+    color: lightgray;
+    left: 100px;
+    top: 0;
+    position: absolute;
+}
+#GalleryBTN:hover{
+    background-color: #ff99cc;
+    color: #222328 !important;
+}
+#Gallery{
+    display: none;
+    width: 400px;
+    height: 160px;
+    overflow: hidden;
+}
+#Gallery a img{
+    float: left;
+    width: 33%;
+    height: 140px;
+    margin-top: 15px;
+}
+#modal{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: none;
+}
+#modalcontent{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    width: 600px;
+    height: 360px;
+    background-color: #ffffff;
+}
+#modalcontent h3{
+    text-align: center;
+    margin: 10px 0px;
+}
+#modalcontent p{
+    margin: 10px;
+}
+#modalcontent button{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    margin: -10px 265px 0px 265px;
+}
+#modalcontent button:hover{
+    background-color: #eeeeee;
+    color: #000000;
+}
+#banner{
+    display: inline-block;
+    float: left;
+}
+#barogagi{
+    display: inline-block;
+    float: right;
+}
+
+
+
+footer{
+    height: 100px;
+}
+footer #logoGray{
+    padding: 30px;
+}
+footer p{
+    margin-top: -70px;
+    margin-left: 350px;
+}
+footer #SNS{
+    margin-top: -55px;
+    width: 180px;
+    float: right;
+    margin-right: 30px;
+}
+footer #SNS a img{
+    width: 33%;
+    float: left;
+}
